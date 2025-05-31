@@ -1,36 +1,36 @@
 # Stock Performance Visualizer & Comparator
 
-## Deskripsi Singkat
+## Brief Description
 
-Proyek ini bertujuan untuk mengambil data historis beberapa saham (khususnya 5 saham utama AS beserta S&P 500 ETF - SPY), memvisualisasikan harga dan indikator teknikalnya, serta membandingkan kinerja harga saham tersebut dalam periode waktu tertentu. Visualisasi utama berfokus pada perbandingan persentase perubahan harga untuk melihat bagaimana masing-masing saham berkinerja relatif terhadap satu sama lain dan terhadap pasar (SPY).
+This project aims to fetch historical data for several stocks (specifically 5 major US stocks along with the S&P 500 ETF - SPY), visualize their prices and technical indicators, and compare their price performance over a specific period. The main visualization focuses on comparing the percentage price change to see how each stock has performed relative to one another and to the market (SPY).
 
-## Fitur Utama
+## Main Features
 
-* **Pengambilan Data Saham:** Mengambil data historis harga saham (OHLCV - Open, High, Low, Close, Volume), dividen, dan informasi lainnya menggunakan `yfinance`.
-* **Perhitungan Indikator Teknikal:** Menghitung berbagai indikator teknikal seperti Simple Moving Average (SMA), Exponential Moving Average (EMA), Relative Strength Index (RSI), dan Volume Weighted Average Price (VWAP) menggunakan library `ta`.
-* **Visualisasi Data Individu:** Membuat grafik candlestick interaktif untuk masing-masing saham, lengkap dengan volume dan indikator teknikal yang dipilih. Menggunakan `Plotly` untuk visualisasi yang interaktif dan menarik.
-* **Perbandingan Kinerja:** Membuat grafik garis yang membandingkan persentase perubahan harga dari beberapa saham dan SPY selama periode waktu yang ditentukan (misalnya, 5 tahun terakhir) untuk analisis kinerja relatif.
-* **Interaktivitas:** Grafik yang dihasilkan memungkinkan zoom, pan, dan menampilkan detail saat kursor diarahkan (hover).
+* **Stock Data Fetching:** Retrieves historical stock price data (OHLCV - Open, High, Low, Close, Volume), dividends, and other information using `yfinance`.
+* **Technical Indicator Calculation:** Calculates various technical indicators such as Simple Moving Average (SMA), Exponential Moving Average (EMA), Relative Strength Index (RSI), and Volume Weighted Average Price (VWAP) using the `ta` library.
+* **Individual Data Visualization:** Creates interactive candlestick charts for each stock, complete with volume and selected technical indicators. Uses `Plotly` for interactive and engaging visualizations.
+* **Performance Comparison:** Generates a line chart comparing the percentage price change of several stocks and SPY over a specified time period (e.g., the last 5 years) for relative performance analysis.
+* **Interactivity:** The generated charts allow for zooming, panning, and displaying details on hover.
 
-## Teknologi & Alat yang Digunakan
+## Technology & Tools Used
 
-* **Python:** Bahasa pemrograman utama.
-* **Jupyter Notebook/Google Colab:** Lingkungan pengembangan interaktif.
-* **`yfinance`:** Untuk mengambil data pasar historis dari Yahoo Finance.
-* **`pandas`:** Untuk manipulasi dan analisis data.
-* **`ta`:** Library untuk analisis teknikal, digunakan untuk menghitung indikator.
-* **`plotly`:** Untuk membuat visualisasi data yang interaktif dan dinamis.
-* **`matplotlib`:** (Mungkin digunakan secara implisit oleh `mplfinance` atau untuk kustomisasi legenda jika `mplfinance` digunakan pada tahap awal).
+* **Python:** Main programming language.
+* **Jupyter Notebook/Google Colab:** Interactive development environment.
+* **`yfinance`:** For fetching historical market data from Yahoo Finance.
+* **`pandas`:** For data manipulation and analysis.
+* **`ta`:** Library for technical analysis, used for calculating indicators.
+* **`plotly`:** For creating interactive and dynamic data visualizations.
+* **`matplotlib`:** (May be used implicitly by `mplfinance` or for legend customization if `mplfinance` was used in early stages).
 
-## Pengaturan & Instalasi (Setup & Installation)
+## Setup & Installation
 
-1.  **Clone Repositori (jika sudah diunggah ke GitHub):**
+1.  **Clone the Repository (if already uploaded to GitHub):**
     ```bash
-    git clone [https://github.com/Aryamuda/Stock-and-Performance-Visualizer-.git)
+    git clone [https://github.com/Aryamuda/Stock-and-Performance-Visualizer-.git](https://github.com/Aryamuda/Stock-and-Performance-Visualizer-.git)
     cd Stock-and-Performance-Visualizer-
     ```
 
-2.  **Buat dan Aktifkan Virtual Environment (Direkomendasikan):**
+2.  **Create and Activate Virtual Environment (Recommended):**
     ```bash
     python -m venv venv
     # Windows
@@ -39,35 +39,35 @@ Proyek ini bertujuan untuk mengambil data historis beberapa saham (khususnya 5 s
     source venv/bin/activate
     ```
 
-3.  **Instal Dependensi:**
+3.  **Install Dependencies:**
     ```bash
-    pip install yfinance pandas ta plotly matplotlib # Tambahkan library lain jika ada
+    pip install yfinance pandas ta plotly matplotlib # Add other libraries if any
     ```
-    *(Catatan: `matplotlib` mungkin sudah terinstal sebagai dependensi `plotly` atau `mplfinance` jika Anda menggunakannya.)*
+    *(Note: `matplotlib` might already be installed as a dependency of `plotly` or `mplfinance` if you used it.)*
 
-## Cara Penggunaan
+## Usage
 
-1.  Buka file Jupyter Notebook utama (misalnya, `5_Stock_And_Comparison_Performance_With_ETF_SNP500_.ipynb`) di Jupyter Notebook, JupyterLab, atau Google Colab.
-2.  Pastikan Anda memiliki koneksi internet untuk mengambil data saham.
-3.  Jalankan sel-sel notebook secara berurutan
-4.  Grafik interaktif akan ditampilkan sebagai output dari sel-sel yang relevan.
+1.  Open the main Jupyter Notebook file (e.g., `5_Stock_And_Comparison_Performance_With_ETF_SNP500_.ipynb`) in Jupyter Notebook, JupyterLab, or Google Colab.
+2.  Ensure you have an internet connection to fetch stock data.
+3.  Run the notebook cells sequentially.
+4.  Interactive charts will be displayed as output from the relevant cells.
 
-## Contoh Visualisasi
+## Visualization Examples
 
-**Contoh Grafik Candlestick dengan Indikator:**
-(AAPL.png)
+**Example Candlestick Chart with Indicators:**
+![Example Candlestick Chart for AAPL](AAPL.png)
 
-**Contoh Grafik Perbandingan Kinerja:**
-(./Performance%20Comparison.png)
+**Example Performance Comparison Chart:**
+![Example Performance Comparison Chart](./Performance%20Comparison.png)
 
-## Rencana Pengembangan (To-Do / Future Enhancements)
+## To-Do / Future Enhancements
 
-* [ ] Menambahkan lebih banyak pilihan indikator teknikal.
-* [ ] Memungkinkan pengguna untuk memasukkan daftar ticker saham secara dinamis.
-* [ ] Membuat antarmuka pengguna (GUI) sederhana menggunakan Streamlit atau Dash.
-* [ ] Menyimpan konfigurasi dan hasil analisis.
-* [ ] Menambahkan analisis statistik lebih lanjut.
+* [ ] Add more options for technical indicators.
+* [ ] Allow users to dynamically input a list of stock tickers.
+* [ ] Create a simple user interface (GUI) using Streamlit or Dash.
+* [ ] Save configurations and analysis results.
+* [ ] Add further statistical analysis.
 
-## Kontribusi
+## Contributing
 
-Kontribusi, isu, dan permintaan fitur sangat diharapkan! Silakan buka *issue* baru untuk mendiskusikan perubahan yang ingin Anda buat atau *pull request* jika Anda sudah memiliki perbaikan.
+Contributions, issues, and feature requests are welcome! Please open a new *issue* to discuss changes you would like to make or a *pull request* if you already have a fix.
