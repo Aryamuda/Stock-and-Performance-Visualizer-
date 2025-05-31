@@ -9,7 +9,7 @@ This project aims to fetch historical data for several stocks (specifically 5 ma
 ## Main Features
 
 * **Stock Data Fetching:** Retrieves historical stock price data (OHLCV - Open, High, Low, Close, Volume), dividends, and other information using `yfinance`.
-* **Technical Indicator Calculation:** Calculates various technical indicators such as Simple Moving Average (SMA), Exponential Moving Average (EMA), Relative Strength Index (RSI), and Volume Weighted Average Price (VWAP) using the `ta` library.
+* **Technical Indicator Calculation:** Calculates various technical indicators such as Simple Moving Average (SMA), Relative Strength Index (RSI), and Volume Weighted Average Price (VWAP) using the `ta` library.
 * **Individual Data Visualization:** Creates interactive candlestick charts for each stock, complete with volume and selected technical indicators. Uses `Plotly` for interactive and engaging visualizations.
 * **Performance Comparison:** Generates a line chart comparing the percentage price change of several stocks and SPY over a specified time period (e.g., the last 5 years) for relative performance analysis.
 * **Interactivity:** The generated charts allow for zooming, panning, and displaying details on hover.
@@ -22,7 +22,6 @@ This project aims to fetch historical data for several stocks (specifically 5 ma
 * **`pandas`:** For data manipulation and analysis.
 * **`ta`:** Library for technical analysis, used for calculating indicators.
 * **`plotly`:** For creating interactive and dynamic data visualizations.
-* **`matplotlib`:** (May be used implicitly by `mplfinance` or for legend customization if `mplfinance` was used in early stages).
 
 ## Setup & Installation
 
