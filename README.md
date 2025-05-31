@@ -1,4 +1,5 @@
 # Stock Performance Visualizer & Comparator
+[![Open In Colab] https://colab.research.google.com/drive/1e3GlxggYKWNx7pC7jHqBKuwr3ql5Hrku#scrollTo=4J7wXpBBf2Ru
 
 ## Brief Description
 
@@ -26,7 +27,7 @@ This project aims to fetch historical data for several stocks (specifically 5 ma
 
 1.  **Clone the Repository (if already uploaded to GitHub):**
     ```bash
-    git clone [https://github.com/Aryamuda/Stock-and-Performance-Visualizer-.git](https://github.com/Aryamuda/Stock-and-Performance-Visualizer-.git)
+    git clone https://github.com/Aryamuda/Stock-and-Performance-Visualizer-.git
     cd Stock-and-Performance-Visualizer-
     ```
 
