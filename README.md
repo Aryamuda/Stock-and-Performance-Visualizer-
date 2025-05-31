@@ -55,10 +55,10 @@ Proyek ini bertujuan untuk mengambil data historis beberapa saham (khususnya 5 s
 ## Contoh Visualisasi
 
 **Contoh Grafik Candlestick dengan Indikator:**
-https://github.com/Aryamuda/Stock-and-Performance-Visualizer-/blob/main/AAPL.png
+(AAPL.png)
 
 **Contoh Grafik Perbandingan Kinerja:**
-https://github.com/Aryamuda/Stock-and-Performance-Visualizer-/blob/main/Performance%20Comparison.png
+(./Performance%20Comparison.png)
 
 ## Rencana Pengembangan (To-Do / Future Enhancements)
 
