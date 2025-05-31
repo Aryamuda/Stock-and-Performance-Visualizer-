@@ -1,5 +1,6 @@
 # Stock Performance Visualizer & Comparator
-[![Open In Colab] https://colab.research.google.com/drive/1e3GlxggYKWNx7pC7jHqBKuwr3ql5Hrku#scrollTo=4J7wXpBBf2Ru
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1e3GlxggYKWNx7pC7jHqBKuwr3ql5Hrku#scrollTo=4J7wXpBBf2Ru)
+
 
 ## Brief Description
 
